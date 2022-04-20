@@ -15,5 +15,10 @@ public class Metodos {
         Mensagem.obterMensagem(9);
         Mensagem.obterMensagem(15);
         Mensagem.obterMensagem(19);
+
+        // empréstimo
+        Emprestimo.calculaTaxa(100, 3);
+        // Emprestimo.calculaTaxa(500, Emprestimo.getTaxaDuasParcelas());
+        Emprestimo.calculaTaxa(500, 10);
     }
 }
