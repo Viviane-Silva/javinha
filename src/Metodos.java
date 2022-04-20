@@ -12,6 +12,8 @@ public class Metodos {
         Calculadora.divisao(3, 6);
 
         // mensagem
-
+        Mensagem.obterMensagem(9);
+        Mensagem.obterMensagem(15);
+        Mensagem.obterMensagem(19);
     }
 }
